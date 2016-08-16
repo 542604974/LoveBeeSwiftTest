@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1828D0F21D634C1D005276A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828D0F11D634C1D005276A9 /* AppDelegate.swift */; };
+		1828D0F41D634C1D005276A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828D0F31D634C1D005276A9 /* ViewController.swift */; };
+		1828D0F71D634C1D005276A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1828D0F51D634C1D005276A9 /* Main.storyboard */; };
+		1828D0F91D634C1D005276A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1828D0F81D634C1D005276A9 /* Assets.xcassets */; };
+		1828D0FC1D634C1D005276A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1828D0FA1D634C1D005276A9 /* LaunchScreen.storyboard */; };
+		1828D1071D634C1D005276A9 /* LoveBeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828D1061D634C1D005276A9 /* LoveBeeTests.swift */; };
+		1828D1121D634C1D005276A9 /* LoveBeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828D1111D634C1D005276A9 /* LoveBeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1828D1031D634C1D005276A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1828D0E61D634C1C005276A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1828D0ED1D634C1D005276A9;
+			remoteInfo = LoveBee;
+		};
+		1828D10E1D634C1D005276A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1828D0E61D634C1C005276A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1828D0ED1D634C1D005276A9;
+			remoteInfo = LoveBee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1828D0EE1D634C1D005276A9 /* LoveBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1828D0F11D634C1D005276A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1828D0F31D634C1D005276A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1828D0F61D634C1D005276A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1828D0F81D634C1D005276A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1828D0FB1D634C1D005276A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1828D0FD1D634C1D005276A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1828D1021D634C1D005276A9 /* LoveBeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveBeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1828D1061D634C1D005276A9 /* LoveBeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveBeeTests.swift; sourceTree = "<group>"; };
+		1828D1081D634C1D005276A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1828D10D1D634C1D005276A9 /* LoveBeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveBeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1828D1111D634C1D005276A9 /* LoveBeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveBeeUITests.swift; sourceTree = "<group>"; };
+		1828D1131D634C1D005276A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1828D0EB1D634C1D005276A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828D0FF1D634C1D005276A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828D10A1D634C1D005276A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1828D0E51D634C1C005276A9 = {
+			isa = PBXGroup;
+			children = (
+				1828D0F01D634C1D005276A9 /* LoveBee */,
+				1828D1051D634C1D005276A9 /* LoveBeeTests */,
+				1828D1101D634C1D005276A9 /* LoveBeeUITests */,
+				1828D0EF1D634C1D005276A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1828D0EF1D634C1D005276A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1828D0EE1D634C1D005276A9 /* LoveBee.app */,
+				1828D1021D634C1D005276A9 /* LoveBeeTests.xctest */,
+				1828D10D1D634C1D005276A9 /* LoveBeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1828D0F01D634C1D005276A9 /* LoveBee */ = {
+			isa = PBXGroup;
+			children = (
+				1828D0F11D634C1D005276A9 /* AppDelegate.swift */,
+				1828D0F31D634C1D005276A9 /* ViewController.swift */,
+				1828D0F51D634C1D005276A9 /* Main.storyboard */,
+				1828D0F81D634C1D005276A9 /* Assets.xcassets */,
+				1828D0FA1D634C1D005276A9 /* LaunchScreen.storyboard */,
+				1828D0FD1D634C1D005276A9 /* Info.plist */,
+			);
+			path = LoveBee;
+			sourceTree = "<group>";
+		};
+		1828D1051D634C1D005276A9 /* LoveBeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1828D1061D634C1D005276A9 /* LoveBeeTests.swift */,
+				1828D1081D634C1D005276A9 /* Info.plist */,
+			);
+			path = LoveBeeTests;
+			sourceTree = "<group>";
+		};
+		1828D1101D634C1D005276A9 /* LoveBeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1828D1111D634C1D005276A9 /* LoveBeeUITests.swift */,
+				1828D1131D634C1D005276A9 /* Info.plist */,
+			);
+			path = LoveBeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1828D0ED1D634C1D005276A9 /* LoveBee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1828D1161D634C1D005276A9 /* Build configuration list for PBXNativeTarget "LoveBee" */;
+			buildPhases = (
+				1828D0EA1D634C1D005276A9 /* Sources */,
+				1828D0EB1D634C1D005276A9 /* Frameworks */,
+				1828D0EC1D634C1D005276A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveBee;
+			productName = LoveBee;
+			productReference = 1828D0EE1D634C1D005276A9 /* LoveBee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1828D1011D634C1D005276A9 /* LoveBeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1828D1191D634C1D005276A9 /* Build configuration list for PBXNativeTarget "LoveBeeTests" */;
+			buildPhases = (
+				1828D0FE1D634C1D005276A9 /* Sources */,
+				1828D0FF1D634C1D005276A9 /* Frameworks */,
+				1828D1001D634C1D005276A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1828D1041D634C1D005276A9 /* PBXTargetDependency */,
+			);
+			name = LoveBeeTests;
+			productName = LoveBeeTests;
+			productReference = 1828D1021D634C1D005276A9 /* LoveBeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1828D10C1D634C1D005276A9 /* LoveBeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1828D11C1D634C1D005276A9 /* Build configuration list for PBXNativeTarget "LoveBeeUITests" */;
+			buildPhases = (
+				1828D1091D634C1D005276A9 /* Sources */,
+				1828D10A1D634C1D005276A9 /* Frameworks */,
+				1828D10B1D634C1D005276A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1828D10F1D634C1D005276A9 /* PBXTargetDependency */,
+			);
+			name = LoveBeeUITests;
+			productName = LoveBeeUITests;
+			productReference = 1828D10D1D634C1D005276A9 /* LoveBeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1828D0E61D634C1C005276A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1828D0ED1D634C1D005276A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1828D1011D634C1D005276A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1828D0ED1D634C1D005276A9;
+					};
+					1828D10C1D634C1D005276A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1828D0ED1D634C1D005276A9;
+					};
+				};
+			};
+			buildConfigurationList = 1828D0E91D634C1C005276A9 /* Build configuration list for PBXProject "LoveBee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1828D0E51D634C1C005276A9;
+			productRefGroup = 1828D0EF1D634C1D005276A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1828D0ED1D634C1D005276A9 /* LoveBee */,
+				1828D1011D634C1D005276A9 /* LoveBeeTests */,
+				1828D10C1D634C1D005276A9 /* LoveBeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1828D0EC1D634C1D005276A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1828D0FC1D634C1D005276A9 /* LaunchScreen.storyboard in Resources */,
+				1828D0F91D634C1D005276A9 /* Assets.xcassets in Resources */,
+				1828D0F71D634C1D005276A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828D1001D634C1D005276A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828D10B1D634C1D005276A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1828D0EA1D634C1D005276A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1828D0F41D634C1D005276A9 /* ViewController.swift in Sources */,
+				1828D0F21D634C1D005276A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828D0FE1D634C1D005276A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1828D1071D634C1D005276A9 /* LoveBeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828D1091D634C1D005276A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1828D1121D634C1D005276A9 /* LoveBeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1828D1041D634C1D005276A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1828D0ED1D634C1D005276A9 /* LoveBee */;
+			targetProxy = 1828D1031D634C1D005276A9 /* PBXContainerItemProxy */;
+		};
+		1828D10F1D634C1D005276A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1828D0ED1D634C1D005276A9 /* LoveBee */;
+			targetProxy = 1828D10E1D634C1D005276A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1828D0F51D634C1D005276A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1828D0F61D634C1D005276A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1828D0FA1D634C1D005276A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1828D0FB1D634C1D005276A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1828D1141D634C1D005276A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1828D1151D634C1D005276A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1828D1171D634C1D005276A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveBee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenWeiGuang.LoveBee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1828D1181D634C1D005276A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveBee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenWeiGuang.LoveBee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1828D11A1D634C1D005276A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveBeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenWeiGuang.LoveBeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveBee.app/LoveBee";
+			};
+			name = Debug;
+		};
+		1828D11B1D634C1D005276A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveBeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenWeiGuang.LoveBeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveBee.app/LoveBee";
+			};
+			name = Release;
+		};
+		1828D11D1D634C1D005276A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveBeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenWeiGuang.LoveBeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveBee;
+			};
+			name = Debug;
+		};
+		1828D11E1D634C1D005276A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveBeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenWeiGuang.LoveBeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveBee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1828D0E91D634C1C005276A9 /* Build configuration list for PBXProject "LoveBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1828D1141D634C1D005276A9 /* Debug */,
+				1828D1151D634C1D005276A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1828D1161D634C1D005276A9 /* Build configuration list for PBXNativeTarget "LoveBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1828D1171D634C1D005276A9 /* Debug */,
+				1828D1181D634C1D005276A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1828D1191D634C1D005276A9 /* Build configuration list for PBXNativeTarget "LoveBeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1828D11A1D634C1D005276A9 /* Debug */,
+				1828D11B1D634C1D005276A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1828D11C1D634C1D005276A9 /* Build configuration list for PBXNativeTarget "LoveBeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1828D11D1D634C1D005276A9 /* Debug */,
+				1828D11E1D634C1D005276A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1828D0E61D634C1C005276A9 /* Project object */;
+}
